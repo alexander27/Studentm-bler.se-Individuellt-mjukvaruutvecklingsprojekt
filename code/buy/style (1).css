@@ -1,0 +1,132 @@
+table {
+
+	border-spacing: 0;
+}
+body{
+	font: 1em "Lucida Grande", Tahoma, Verdana, sans-serif;
+	color: #404040;
+	margin:0 auto;
+}
+
+.navigation{
+	
+	padding:1em;
+}
+
+.sectionContents{
+	width:900px;
+	padding: 0 1em 1em 1em;
+	 float:left;
+	 
+}
+
+.sectionContents table{
+    width:900px;
+  
+	
+
+		
+}
+
+.sectionContents table th{
+	padding:0.5em;
+	background-color:white;
+	width:900px;
+}
+
+.sectionContents table td{
+	padding:0.5em;
+	background-color:white;
+	width:900px;
+}
+
+.sectionContainer{
+	
+	text-align:center;
+/*	border:thin solid #000;
+	width:30em;*/
+	width:900px;
+	margin:7em auto 0 auto;
+}
+
+.sectionHeader{
+	font-size:1.5em;
+	border-bottom:thin solid white;
+	padding:10px;
+	background:white;
+	width:200px;
+    margin-left:18px;
+}
+
+.textAlignCenter{
+	text-align:center;
+	width:900px;
+
+  
+      background-size: 6px;
+      background-repeat:no-repeat;
+
+}
+
+.textAlignLeft{
+	text-align:left;
+width:900px;
+}
+
+.textAlignRight{
+	text-align:right;
+
+	width:900px;
+}
+
+
+.customButton {
+
+  
+	padding:5px;
+		-moz-box-shadow:inset 0px 1px 0px 0px none;
+	-webkit-box-shadow:inset 0px 1px 0px 0px none;
+	box-shadow:inset 0px 1px 0px 0px none;
+background:-webkit-gradient( linear, left top, left bottom,color-stop(0.05, #79bbff)
+	color-stop(1, white) );
+
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:white;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:5px;
+	border:5px solid white;
+	display:inline-block;
+	color:white;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 1px 0px white;
+
+	cursor:pointer;
+  
+}
+
+.customButton:active {
+	position:relative;
+	top:1px;
+}
+a.customButton 
+{
+    width:140px;
+    height:30px;
+        background-image:url('../images/knapp.gif');
+      background-size: 150px;
+      background-repeat:no-repeat;
+}
+.lank{
+    background-image:url('../images/knapp.gif');
+}
+.buy
+{
+background-image:url('../images/knapp1.gif');
+background-repeat:no-repeat;
+background-size: 150px;
+}
